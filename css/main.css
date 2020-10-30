@@ -1,0 +1,240 @@
+.header {
+    width: 100%;
+    padding: 15px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-link:hover {
+    text-decoration: none;
+    color: coral;
+}
+
+.box {
+    margin-top: 30px;
+}
+
+.tel-card {
+    background-color: aqua;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 1px solid aqua;
+    padding: 10px;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.bg-content {
+    display: block;
+    object-fit: cover;
+}
+
+.text-content {
+    bottom: 23%;
+    left: 48%;
+    color: white;
+}
+
+.text-content h1 {
+    margin: 0px -42px;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.text-content h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 9px 28px;
+}
+
+.text-content button {
+    border-radius: 20px;
+    padding: 12px;
+    width: 40%;
+    left: 26%;
+}
+
+.card-section {
+    max-width: 67%;
+    top: 104%;
+    left: 18%;
+}
+
+.card-section i {
+    font-size: 50px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid black;
+}
+
+.card-section .card:nth-child(1) {
+    background-color: rgb(255, 136, 28);
+}
+
+.card-section .card:nth-child(2) {
+    background-color: rgb(255, 145, 46);
+}
+
+.card-section .card:nth-child(3) {
+    background-color: rgb(255, 159, 72);
+}
+
+.card-section .card:nth-child(4) {
+    background-color: rgb(255, 172, 96);
+}
+
+.midle-content {
+    bottom: -95%;
+    left: 9%;
+}
+
+.midle-content .info-title {
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(232, 120, 21);
+    max-width: 51%;
+}
+
+.midle-content .info-img {
+    margin-top: 20px;
+}
+
+.midle-content .info-text {
+    margin-top: 20px;
+}
+
+.highlights {
+    bottom: -114%;
+    left: 40%;
+}
+
+.highlights h2 {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(232, 120, 21);
+}
+
+.highlights img {
+    right: -98%;
+    margin-top: 20px;
+}
+
+.products {
+    top: 281%;
+    left: 6%;
+}
+
+.products a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.products i {
+    color: rgb(255, 136, 28);
+}
+
+.contact {
+    bottom: -295%;
+    background-color: #c3b7b775;
+}
+
+.contact img {
+    max-width: 880px;
+    overflow: hidden;
+    left: -232px;
+}
+
+.contact h2 {
+    color: #443e3e;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    color: #8e8b8b;
+    font-size: 14px;
+}
+
+.contact span {
+    margin-bottom: 10px;
+}
+
+.blog {
+    top: 400%;
+    left: 6%;
+}
+
+.blog h1 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(232, 120, 21)
+}
+
+.map {
+    background-image: url(../img/map.png);
+    padding: 120px 0 70px;
+    color: white;
+    margin-bottom: 70px;
+    top: 466%;
+    left: 1%;
+    width: 100%;
+}
+
+.map h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    top: 514%;
+	width: 100%;
+	height: auto;
+}
+
+.logo-footer img {
+    border-top: 2px solid rgb(232, 120, 21);
+    padding-top: 20px;
+}
+
+.icon-footer {
+    font-size: 30px;
+    margin: 20px;
+    color: #FF7329;
+}
+
+
+
+.footer-bottom {
+    background-color: #F0F0F0;
+}
+
+.footer-bottom ul {
+    list-style-type: none;
+}
+
+.footer-bottom li {
+    margin: 5px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #443e3e;
+}
+
+footer a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    color: #443e3e;
+}

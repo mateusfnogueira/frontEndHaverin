@@ -5,56 +5,383 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Home Haverin</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/normalize.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap-grid.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap-reboot.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.css.map'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap-grid.css.map'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap-reboot.css.map'>
-    <script src="./js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/105a1bc217.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="header">
-            <div class="row">
-                <div class="col-md-3 logo">
-                    <img src="./img/logo.png" alt="">
-                </div>
-                <nav class="col-md-5 navbar links">
-                    <a class="header-link" href="#">Home</a>
-                    <a class="header-link" href="#">O Grupo</a>
-                    <a class="header-link" href="#">Atuação</a>
-                    <a class="header-link" href="#">Produtos</a>
-                    <a class="header-link" href="#">Contato</a>
-                </nav>
-                <div class="col-md-1 tel">
+    <div class="container">
+        <div class="header row">
+            <div class="col logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <nav class="col-6 navbar links">
+                <a class="header-link" href="/index.html">Home</a>
+                <a class="header-link" href="/index.html">O Grupo</a>
+                <a class="header-link" href="/index.html">Atuação</a>
+                <a class="header-link" href="/index.html">Produtos</a>
+                <a class="header-link" href="/pages/contato.html">Contato</a>
+            </nav>
+            <div class="col">
+                <div class="box">
                     <span class="tel-card">
-                        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                        <i class="fab fa-whatsapp"></i>
                         13 3221.7933
                     </span>
                 </div>
             </div>
         </div>
-        <section class="top-content">
-            <div class="bg-content">
-                <img src="./img/bg-familia.jpg" alt="">
+    </div>
+    <section class="top-content">
+        <div class="bg-top-content">
+            <img src="./img/bg-familia.jpg" alt="">
+        </div>
+        <div class="row text-content flex-column position-absolute">
+            <h1>Distribuindo Qualidade de Vida</h1>
+            <h3>Atendemos toda a Baixada Santista</h3>
+            <button type="button" class="btn btn-outline-light position-relative">
+                Saiba mais
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="row">
+            <div class="card-group card-section position-absolute">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-syringe icon-card"></i>
+                        <h5 class="card-title">Agilidade</h5>
+                        <p class="card-text">entrega rápida e prática em toda a Baixada Santista.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-running"></i>
+                        <h5 class="card-title">Produtos Nestlé</h5>
+                        <p class="card-text">Diversos produtos Nestlé Health Science.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-heartbeat"></i>
+                        <h5 class="card-title">Nutrição</h5>
+                        <p class="card-text">Alimentos que garantem uma nutrição completa.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-atom"></i>
+                        <h5 class="card-title">Especialização</h5>
+                        <p class="card-text">Atendimento por equipe especializada de nutricionista e farmacêutica</p>
+                    </div>
+                </div>
             </div>
-    </div>
+        </div>
     </section>
-    </div>
+
+    <section class="midle-content position-absolute">
+        <div class="container">
+            <div class="d-flex justify-content-center row">
+                <div class="d-flex justify-content-center col-12 info-title">
+                    <h1>Haverin</h1>
+                </div>
+                <div class="d-flex justify-content-center col-6 info-img">
+                    <img src="./img/equipeHaverim.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center flex-column col-6 info-text">
+                    <p>A Haverim atua desde 2012 oferecendo a seus clientes o que há de melhor em nutrição clínica e
+                        dieta enteral.
+                    </p>
+                    <p>
+                        Comercializamos produtos testados e aprovados por uma equipe de nutricionistas das mais
+                        renomadas marcas como Nestlé, Humalin e Naiak.
+                    </p>
+                    <p>
+                        Além da linha de alimentação enteral e suplementação para pacientes que precisam de cuidados
+                        especiais oferecemos também opções para quem busca longevidade, prevenção, manutenção da saúde e
+                        bem estar.
+                    </p>
+                    <p>
+                        Nosso principal diferencial é a atenção aos nossos clientes de forma individualizada e
+                        personalizada. Sabemos que cada um que nos procura é o amor da vida de alguém e aqui, na
+                        Haverim, trabalhamos com respeito e dedicação, porque toda história de amor merece os momentos
+                        mais felizes possíveis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights d-flex position-absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-column justify-content-center ">
+                    <h3 class="text-center">Confira</h3>
+                    <h2 class="text-center">Nossos Destaques</h2>
+                </div>
+                <div class="col-12">
+                    <img class="position-absolute" src="./img//destaques1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products position-absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 produto1">
+                    <a href="/">
+                        <img src="./img/trophic.png" alt="">
+                        <p>Trophic 1.5 - Hipercalórica 1.5 kcal por ml</p>
+
+                        <p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+
+                        <p>R$50,00</p>
+
+
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 produto1">
+                    <a href="/">
+                        <img src="./img/resource.png" alt="">
+                        <p>Trophic 1.5 - Hipercalórica 1.5 kcal por ml</p>
+
+                        <p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+
+                        <p>R$50,00</p>
+
+
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 produto1">
+                    <a href="/">
+                        <img src="./img/nutrenJunior.png" alt="">
+                        <p>Trophic 1.5 - Hipercalórica 1.5 kcal por ml</p>
+
+                        <p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+
+                        <p>R$50,00</p>
+
+
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 produto1">
+                    <a href="/">
+                        <img src="./img/trophicSoya.png" alt="">
+                        <p>Trophic 1.5 - Hipercalórica 1.5 kcal por ml</p>
+
+                        <p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+
+                        <p>R$50,00</p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact position-absolute">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <img class="position-relative" src="./img/contato-img.png">
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="d-flex flex-column align-items-center">
+                    <h2>Solicite uma visita</h2>
+                    <p style="line-height: 3px;">Estamos sempre prontos para atender com</p>
+                    <p style="line-height: 3px;">maior agilidade e qualidade possível.</p>
+
+                    <p>Telefones: (13) 3321.7933 e (13) 97421.3810</p>
+
+                    <div role="d-flex flex-column align-items-center" lang="pt-BR">
+                        <form class="d-flex flex-column align-items-center">
+
+                            <span>
+                                <input class="nome form-control" type="text" name="nome" value="" size="40"
+                                    aria-required="true" aria-invalid="false" placeholder="Nome" />
+                            </span>
+                            <span>
+                                <input class="email form-control" type="email" name="email" value="" size="40"
+                                    aria-required="true" aria-invalid="false" placeholder="E-mail" />
+                            </span>
+                            <span>
+                                <input class="tel form-control" type="tel" name="tel" value="" size="40"
+                                    aria-invalid="false" placeholder="Telefone" />
+                            </span>
+                            <span>
+                                <input class="assunto form-control" type="text" name="assunto" value="" size="40"
+                                    aria-required="true" aria-invalid="false" placeholder="Assunto" />
+                            </span>
+                            <span>
+                                <textarea class="form-control" name="textarea" cols="40" rows="10" aria-required="true"
+                                    aria-invalid="false" placeholder="Mensagem">
+                                    </textarea>
+                            </span>
+
+                            <div class="d-flex">
+                                <div>
+                                    <button class="btn btn-outline-secondary" type="reset">
+                                        <i class="fas fa-trash-alt"></i>
+                                        Limpar
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="btn btn-outline-secondary" type="submit">
+                                        Enviar
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog position-absolute">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-12 d-flex justify-content-center blog-info">
+                    <h1>Dicas de Saúde</h1>
+                </div>
+                <div class="info-blog col-6 d-flex flex-column">
+                    <img src="./img/blog-img.png" alt="">
+
+                    <h2>Saúde Cognitiva</h2>
+
+                    <p>
+                        Declínios na saúde cognitiva associados à idade podem ser normais, mas eles não precisam ser um
+                        problema grave. Tomar as medidas necessárias para manter e até melhorar a saúde cognitiva
+                        durante o processo de envelhecimento é importante. Saber mais sobre o que influencia o cérebro e
+                        cognição são aspectos que podem ajudar.
+                    </p>
+                </div>
+                <div class="info-blog col-6 d-flex flex-column">
+                    <img src="./img/blog-img.png" alt="">
+
+                    <h2>Saúde Cognitiva</h2>
+
+                    <p>
+                        Declínios na saúde cognitiva associados à idade podem ser normais, mas eles não precisam ser um
+                        problema grave. Tomar as medidas necessárias para manter e até melhorar a saúde cognitiva
+                        durante o processo de envelhecimento é importante. Saber mais sobre o que influencia o cérebro e
+                        cognição são aspectos que podem ajudar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map position-absolute text-center">
+        <h2>Atuamos em toda a Baixada Santista,<br />
+            Vale do Ribeira e Litoral Norte.</h2>
+        <p>200 km dentro do Estado de São Paulo</p>
+        <button class="btn btn-outline-light">
+            SAIBA MAIS
+        </button>
+    </section>
+
+    <footer class="position-absolute">
+        <div class="container">
+            <div class="footer_bar"></div>
+            <div class="logo-footer">
+                <img alt="logo footer" src="./img/logo.png">
+            </div>
+        </div>
+        <div class="footer-infos pt-5">
+            <div class="container">
+                <div class="row no-gutters align-items-center">
+                    <div class="col-lg-5 d-flex flex-column">
+                        <i class="fas fa-map-marker-alt icon-footer"></i>
+                        <p>Rua Antônio Bento, 79 &#8211; loja 2</p>
+                        <p>Vila Mathias I Santos &#8211; SP I CEP: 11075-260</p>
+                    </div>
+
+                    <div class="col-lg-3 d-flex flex-column">
+                        <i class="fas fa-envelope-open-text icon-footer pb-4"></i>
+                        <a href="mailto:vendas@haverim.com.br" class="pt-2">vendas@haverim.com.br</a>
+                    </div>
+
+                    <div class="col-lg-4 d-flex flex-column align-items-end">
+                        <i class="fas fa-phone-volume icon-footer pb-2"></i>
+                        <p>13 3321.7933</p>
+                        <p>13 97421.3810</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom pt-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 d-flex justify-content-center">
+                        <p>2018 - Haverim - Todos os direitos reservados.</p>
+                    </div>
+
+                    <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="./img/logo-marca-site.png">
+                    </div>
+
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <ul class="d-flex mb-0">
+                            <li>
+                                <a href="#" aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Sobre Nós</a>
+                            </li>
+                            <li>
+                                <a href="#">Produtos</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
 
 </body>
 
 </html>
-
-<style>
-    .bg-content {
-        display: block;
-        object-fit: cover;
-    }
-</style>
