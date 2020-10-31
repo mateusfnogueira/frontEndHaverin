@@ -1,0 +1,290 @@
+.header {
+    width: 100%;
+    /* padding: 15px; */
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-link:hover {
+    text-decoration: none;
+    color: coral;
+}
+
+.box-tel {
+    margin-top: 30px;
+}
+
+.tel-card {
+    background-color: aqua;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 1px solid aqua;
+    padding: 10px;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.text-carousel {
+    top: 35%;
+}
+
+.text-carousel button {
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.card-section {
+    max-width: 67%;
+}
+
+.card-section i {
+    font-size: 50px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid black;
+}
+
+.card-section .card:nth-child(1) {
+    background-color: rgb(255, 136, 28);
+}
+
+.card-section .card:nth-child(2) {
+    background-color: rgb(255, 145, 46);
+}
+
+.card-section .card:nth-child(3) {
+    background-color: rgb(255, 159, 72);
+}
+
+.card-section .card:nth-child(4) {
+    background-color: rgb(255, 172, 96);
+}
+
+.about {
+    text-align: center;
+    color: rgb(165, 165, 165);
+    font-weight: 400;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.about h2 {
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 100px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(255, 136, 28);
+    position: relative;
+}
+
+.about .col-6:nth-child(3) {
+    max-width: 40%;
+}
+
+.highlights {
+    text-align: center;
+}
+
+.highlights h3 {
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+}
+
+.highlights h2 {
+    margin-bottom: 5px;
+    font-size: 32px;
+    color: rgb(165, 165, 165);
+}
+
+.highlights-bottom {
+    border-bottom: 2px solid rgb(255, 136, 28);
+    margin-bottom: 30px;
+    max-width: 30% !important;
+}
+
+.products {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.products a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
+
+.products a:hover {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-weight: 750;
+}
+
+.products i {
+    color: rgba(255, 230, 0, 0.89);
+}
+
+.contact {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact .form h2 {
+    font-size: 32px;
+    color: rgb(165, 165, 165);
+}
+
+.contact .form p {
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+}
+
+.contact-text {
+    color: rgb(165, 165, 165);
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 7px 20px;
+    margin-bottom: 13px;
+    border-radius: 10px;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact-form {
+    padding-top: 30px;
+    padding-left: 10px;
+    max-width: 480px;
+    padding-bottom: 30px;
+}
+
+.blog {
+    margin-top: 70px;
+}
+
+.blog-info {
+    margin-bottom: 30px;
+}
+
+.blog-info h1 {
+    border-bottom: 2px solid rgb(255, 136, 28);
+    font-size: 32px;
+    color: rgb(165, 165, 165);
+}
+
+.square {
+    width: 5%;
+    height: 200px;
+    background-color: #b3c3c3;
+    opacity: 0.3;
+}
+
+.square_1 {
+    width: 16%;
+    height: 200px;
+    background-color: #b3c3c3;
+    opacity: 0.1;
+}
+
+.square2 {
+    width: 26%;
+}
+
+.square2 img {
+    width: 97%;
+    margin-left: 3%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.square2:before {
+    position: absolute;
+    width: 155px;
+    z-index: -1;
+    background-color: rgb(255, 136, 28);
+    height: 200px;
+    left: 0;
+    content: "";
+}
+
+.square2 h2 {
+    color: rgb(165, 165, 165);
+    font-size: 26px;
+    text-align: left;
+    margin: 20px 0 0 3%;
+}
+
+.square2 p {
+    line-height: 22px;
+    text-align: left;
+    color: rgb(165, 165, 165);
+    font-size: 16px;
+    margin: 15px 0 0 3%;
+}
+
+.map {
+    background-image: url(../img/map.png);
+    padding: 120px 0 70px;
+    color: white;
+    margin-bottom: 70px;
+    width: 100%;
+    margin-top: 90px;
+    left: 15px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+.logo-footer img {
+    border-top: 2px solid rgb(232, 120, 21);
+    padding-top: 20px;
+}
+
+.icon-footer {
+    font-size: 30px;
+    margin: 20px;
+    color: #FF7329;
+}
+
+
+
+.footer-bottom {
+    background-color: #F0F0F0;
+}
+
+.footer-bottom ul {
+    list-style-type: none;
+}
+
+.footer-bottom li {
+    margin: 5px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #443e3e;
+}
+
+footer a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    color: #443e3e;
+}
